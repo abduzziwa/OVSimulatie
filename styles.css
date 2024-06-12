@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #bus-stops {
+    margin: 20px auto;
+    width: 70%;
+  }
+  
+  .bus-route {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 0;
+    position: relative;
+  }
+  
+  .stop {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: grey;
+  }
+  
+  .current-stop {
+    background-color: red;
+  }
+  
+  .line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: grey;
+  }
+  
+  .bus {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background-color: blue;
+    border-radius: 50%;
+    transition: left 1s;
+  }
+  
+  #passenger-list {
+    margin: 20px auto;
+    width: 50%;
+    text-align: left;
+  }
+  
+  .passenger {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+  }
+  
+  .buttons, .passenger-buttons {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+  }
+  
